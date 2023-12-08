@@ -1,2 +1,2 @@
 # Leetcode
-C++ solutions of Leetcode Problems
+A repository of both brute and optimised C++ solutions of famous Leetcode Problems
