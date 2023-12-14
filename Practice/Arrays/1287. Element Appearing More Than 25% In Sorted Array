@@ -1,0 +1,15 @@
+class Solution {
+public:
+    int findSpecialInteger(vector<int>& arr) {
+       int fourth=arr.size()/4;
+           for(int i=0;i<arr.size()-fourth;i++)
+           {
+               if(arr[i]==arr[i+fourth])
+               {
+                   return arr[i];
+               }
+           }
+        
+        return -1;
+    }
+};
